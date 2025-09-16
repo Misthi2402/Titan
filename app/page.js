@@ -28,7 +28,7 @@ export default function Home() {
 
     // 🔥 Configurable values
     const frameCount = 76;       // total frames you have
-    const scrollDistance = 2500; // smaller = faster, larger = slower
+    const scrollDistance = 4000; // smaller = faster, larger = slower
 
     const currentFrame = (i) =>
       `/frames/frames_${String(i).padStart(4, "0")}.png`;
